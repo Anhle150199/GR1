@@ -5,7 +5,7 @@ from skimage import exposure
 import matplotlib.pyplot as plt
 
 # reading the image
-img = imread("../Detect/object-detector-master/data/dataset/pos/pos (92).jpg")
+img = imread("../Photos.jpg")
 fd, hog_image = hog(img, orientations=9, pixels_per_cell=(8, 8),
                 	cells_per_block=(2, 2), visualize=True, multichannel=True)
 print(hog_image)

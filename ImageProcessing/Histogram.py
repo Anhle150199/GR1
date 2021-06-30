@@ -3,7 +3,7 @@ import numpy as np
 import cv2 as cv
 from matplotlib import pyplot as plt
 
-img = cv.imread('../Photos/toy.png',0)
+img = cv.imread('../Photos/gao4.png',0)
 
 hist, bins = np.histogram(img.flatten(), 256, [0, 256])
 

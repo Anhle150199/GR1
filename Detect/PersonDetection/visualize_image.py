@@ -9,6 +9,8 @@ from skimage.transform import pyramid_gaussian
 
 
 image = cv2.imread('test/test.jpg')
+# image = cv2.imread('../../Photos/face4.jpg')
+
 image = cv2.resize(image,(400,256))
 size = (64,128)
 step_size = (9,9)

@@ -4,6 +4,7 @@ import numpy as np
 step = 0
 image = cv2.imread("../Photos/coins.jpg")
 # image = cv2.resize(image, None, fx=0.5, fy=0.5)
+cv2.imshow("image1", image)
 
 # find contour
 imgBlur = cv2.GaussianBlur(image, (5, 5), 0)
